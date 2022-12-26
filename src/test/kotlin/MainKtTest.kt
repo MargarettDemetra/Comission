@@ -70,7 +70,7 @@ class MainKtTest {
         val amountMonth = 76_000
 
         val result = comission(cardType = cardType, amount = amount, amountMonth = amountMonth)
-        assertEquals(32, result)
+        assertEquals(11, result)
     }
 
     @Test
